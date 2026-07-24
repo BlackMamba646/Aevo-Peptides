@@ -1,0 +1,20 @@
+# Aevo
+
+> Aevo is a UAE-based peptide research brand offering verified peptide formats — pens, vials and nasal sprays — with same-day Dubai delivery.
+
+Aevo curates a considered range of research peptides grouped by goal: weight loss, recovery, energy & longevity, brain performance and hormone optimization. Products are the official Apex Pharma line, third-party verified.
+
+## Pages
+- [Home](/): Brand overview and full range
+- [Science](/science): Verification, cold-chain handling and lab standards
+- [Shipping & Returns](/shipping): UAE delivery rates and returns policy
+
+## Collections
+- [Weight Loss](/collection/weight-loss): Retatrutide, Tirzepatide, AOD-9604 and more
+- [Recovery](/collection/recovery): BPC-157, TB-500, KPV, DSIP
+- [Energy & Longevity](/collection/energy-longevity): NAD+, MOTS-C, Epitalon, GHK-Cu
+- [Brain Performance](/collection/brain-performance): Semax, Selank, PT-141, Kisspeptin
+- [Hormone Optimization](/collection/hormone-optimization): Ipamorelin, Sermorelin, CJC-1295, Somatropin
+
+## Optional
+- [Search](/search): Product keyword search
