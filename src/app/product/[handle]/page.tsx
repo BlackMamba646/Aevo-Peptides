@@ -41,25 +41,42 @@ export default async function ProductPage({ params }: { params: Params }) {
   if (product) {
     const price = parseFloat(product.priceRange.minVariantPrice.amount);
     const currency = product.priceRange.minVariantPrice.currencyCode ?? "AED";
+    const priceValid = new Date();
+    priceValid.setFullYear(priceValid.getFullYear() + 1);
+
     jsonLd = JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: product.title,
-      description: product.description?.trim() || product.title,
-      image: product.images.map((i) => i.url),
-      url,
-      offers:
-        Number.isFinite(price) && price > 0
-          ? {
-              "@type": "Offer",
-              price: price.toFixed(2),
-              priceCurrency: currency,
-              availability: product.availableForSale
-                ? "https://schema.org/InStock"
-                : "https://schema.org/OutOfStock",
-              url,
-            }
-          : undefined,
+      "@graph": [
+        {
+          "@type": "Product",
+          name: product.title,
+          description: product.description?.trim() || product.title,
+          image: product.images.map((i) => i.url),
+          url,
+          brand: { "@type": "Brand", name: "APEX" },
+          sku: product.handle,
+          offers:
+            Number.isFinite(price) && price > 0
+              ? {
+                  "@type": "Offer",
+                  price: price.toFixed(2),
+                  priceCurrency: currency,
+                  priceValidUntil: priceValid.toISOString().split("T")[0],
+                  availability: product.availableForSale
+                    ? "https://schema.org/InStock"
+                    : "https://schema.org/OutOfStock",
+                  url,
+                }
+              : undefined,
+        },
+        {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://aevowellness.shop/" },
+            { "@type": "ListItem", position: 2, name: product.title, item: url },
+          ],
+        },
+      ],
     });
   }
 

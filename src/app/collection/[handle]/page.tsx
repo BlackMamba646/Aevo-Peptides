@@ -33,19 +33,30 @@ export default async function CollectionPage({ params }: { params: Params }) {
   const jsonLd = category
     ? JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        name: category.title,
-        description: `${category.title} peptides at Aevo: ${category.blurb} Verified for research and shipped cold-chain across the UAE.`,
-        url,
-        mainEntity: {
-          "@type": "ItemList",
-          itemListElement: products.map((p, i) => ({
-            "@type": "ListItem",
-            position: i + 1,
-            url: `https://aevowellness.shop/product/${p.handle}`,
-            name: p.title,
-          })),
-        },
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            name: category.title,
+            description: `${category.title} peptides at Aevo: ${category.blurb} Verified for research and shipped cold-chain across the UAE.`,
+            url,
+            mainEntity: {
+              "@type": "ItemList",
+              itemListElement: products.map((p, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                url: `https://aevowellness.shop/product/${p.handle}`,
+                name: p.title,
+              })),
+            },
+          },
+          {
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://aevowellness.shop/" },
+              { "@type": "ListItem", position: 2, name: category.title, item: url },
+            ],
+          },
+        ],
       })
     : null;
 

@@ -4,9 +4,22 @@ export function GlobalJsonLd() {
     "@graph": [
       {
         "@type": "Organization",
-        name: "Aevo",
+        name: "Aevo Wellness",
         url: "https://aevowellness.shop",
-        logo: "https://aevowellness.shop/favicon.ico",
+        logo: "https://aevowellness.shop/assets/science-hero.png",
+        description:
+          "Official distributors of APEX research peptides in the UAE. Third-party tested for 98%+ purity, cold-chain shipped.",
+        sameAs: [
+          "https://www.instagram.com/aevowellness",
+          "https://wa.me/447832619150",
+          "https://www.apexpharma.io/",
+        ],
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "customer service",
+          availableLanguage: ["English", "Arabic"],
+          url: "https://aevowellness.shop/shipping",
+        },
       },
       {
         "@type": "WebSite",

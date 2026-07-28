@@ -3,26 +3,33 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { GlobalJsonLd } from "@/components/GlobalJsonLd";
 import { FacebookPixel } from "@/components/FacebookPixel";
+import { CookieConsent } from "@/components/CookieConsent";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aevowellness.shop"),
-  title: "Aevo wellness",
+  title: "Aevo | Research-Grade Peptides, ≥98% Verified Purity",
   description:
-    "A premium e-commerce site for Aevo peptides, offering a frictionless mobile-first shopping experience.",
-  authors: [{ name: "Lovable" }],
+    "Independently assayed to ≥98% purity by HPLC & mass spectrometry. Cold-chain shipped to the UK, EU & UAE. BPC-157, TB-500, Semaglutide, Retatrutide & more. For laboratory research use only.",
+  authors: [{ name: "Aevo Wellness" }],
+  alternates: {
+    languages: {
+      "en-GB": "https://aevowellness.shop",
+      "en-AE": "https://aevowellness.shop",
+      "x-default": "https://aevowellness.shop",
+    },
+  },
   openGraph: {
     siteName: "Aevo",
-    title: "Aevo wellness",
+    title: "Aevo | Research-Grade Peptides, ≥98% Verified Purity",
     description:
-      "A premium e-commerce site for Aevo peptides, offering a frictionless mobile-first shopping experience.",
+      "Independently assayed to ≥98% purity by HPLC & mass spectrometry. Cold-chain shipped to the UK, EU & UAE.",
     type: "website",
   },
   twitter: {
-    card: "summary",
-    site: "@Lovable",
-    title: "Aevo wellness",
+    card: "summary_large_image",
+    title: "Aevo | Research-Grade Peptides, ≥98% Verified Purity",
     description:
-      "A premium e-commerce site for Aevo peptides, offering a frictionless mobile-first shopping experience.",
+      "Independently assayed to ≥98% purity by HPLC & mass spectrometry. Cold-chain shipped to the UK, EU & UAE.",
   },
 };
 
@@ -38,6 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <GlobalJsonLd />
         {children}
         <FacebookPixel />
+        <CookieConsent />
       </body>
     </html>
   );

@@ -12,18 +12,17 @@ import { BuyBar } from "@/components/BuyBar";
 import { AgeGate } from "@/components/AgeGate";
 import { Toaster } from "@/components/ui/sonner";
 
-const HOME_OG_IMAGE =
-  "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a21cd6e4-8fbe-4815-8048-9a48d135d60e/id-preview-a906b881--c79282dd-7877-421e-8ee3-b183eeb9cdab.lovable.app-1780346068891.png";
+const HOME_OG_IMAGE = "https://aevowellness.shop/assets/science-hero.png";
 
 export const metadata: Metadata = {
-  title: "Aevo — Refined peptide formats",
+  title: "Buy Research Peptides in the UAE — Verified 98%+ Purity | Aevo",
   description:
-    "Aevo is a considered range of peptide formats — pens, vials and nasal sprays — designed with clean lines and quiet precision.",
+    "Shop Aevo's range of third-party tested research peptides — pens, vials and nasal sprays — cold-chain shipped across the UAE with same-day Dubai delivery. BPC-157, Semaglutide, Retatrutide & more.",
   alternates: { canonical: "https://aevowellness.shop/" },
   openGraph: {
-    title: "Aevo — Refined peptide formats",
+    title: "Buy Research Peptides in the UAE — Verified 98%+ Purity | Aevo",
     description:
-      "A considered range of peptide formats, designed with clean lines and quiet precision.",
+      "Third-party tested research peptides — pens, vials and nasal sprays — cold-chain shipped across the UAE with same-day Dubai delivery.",
     type: "website",
     url: "https://aevowellness.shop/",
     images: [HOME_OG_IMAGE],

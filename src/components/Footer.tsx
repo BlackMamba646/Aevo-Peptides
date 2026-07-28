@@ -15,13 +15,16 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
   },
   {
     title: "Company",
-    links: [{ label: "About" }, { label: "Contact" }],
+    links: [
+      { label: "About", to: "/about" },
+      { label: "Science", to: "/science" },
+    ],
   },
   {
     title: "Support",
     links: [
       { label: "Shipping", to: "/shipping" },
-      { label: "Returns", to: "/shipping" },
+      { label: "Refund Policy", to: "/refund-policy" },
     ],
   },
 ];
@@ -96,7 +99,12 @@ export function Footer({ bare = false }: { bare?: boolean }) {
             Not for human or veterinary use. No medical, diagnostic, or therapeutic
             claims are made.
           </p>
-          <p className="mt-4 text-xs text-ink-soft">
+          <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-soft">
+            <Link href="/privacy" className="hover:text-ink">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-ink">Terms of Service</Link>
+            <Link href="/refund-policy" className="hover:text-ink">Refund Policy</Link>
+          </div>
+          <p className="mt-3 text-xs text-ink-soft">
             © {new Date().getFullYear()} Aevo. All rights reserved.
           </p>
         </div>
