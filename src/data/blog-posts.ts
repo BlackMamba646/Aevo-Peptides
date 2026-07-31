@@ -18,7 +18,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "BPC-157: What Researchers Need to Know",
     description:
       "A comprehensive overview of BPC-157 — its structure, research applications, published findings, and what to look for when sourcing this peptide for laboratory use.",
-    date: "2026-08-04",
+    date: "2026-07-31",
     author: "Aevo Research Team",
     category: "guide",
     readTime: "8 min read",
@@ -81,7 +81,7 @@ At Aevo, every batch of BPC-157 is independently assayed to ≥98% purity by HPL
     title: "Peptide Pens vs Vials vs Nasal Sprays: Which Format Is Right for Your Research?",
     description:
       "Compare the three main peptide formats — pre-filled pens, lyophilised vials, and nasal sprays — covering precision, convenience, storage, and ideal research applications.",
-    date: "2026-08-11",
+    date: "2026-07-29",
     author: "Aevo Research Team",
     category: "comparison",
     readTime: "6 min read",
@@ -170,7 +170,7 @@ Every Aevo product — pen, vial, or spray — is cold-chain shipped across the 
     title: "How to Store Research Peptides Properly",
     description:
       "A practical guide to peptide storage — temperature requirements, reconstitution handling, shelf life, and common mistakes that degrade peptide integrity.",
-    date: "2026-08-18",
+    date: "2026-07-27",
     author: "Aevo Research Team",
     category: "education",
     readTime: "5 min read",
