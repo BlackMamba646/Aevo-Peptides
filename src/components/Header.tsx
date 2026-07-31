@@ -12,6 +12,7 @@ type NavItem = { label: string; href?: string; to?: string };
 const NAV: NavItem[] = [
   { label: "Products", href: "#products" },
   { label: "Science", to: "/science" },
+  { label: "Blog", to: "/blog" },
   { label: "FAQ", to: "/faq" },
 ];
 

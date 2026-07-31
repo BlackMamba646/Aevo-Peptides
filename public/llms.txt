@@ -7,10 +7,16 @@ Aevo curates research-grade peptides in three formats — pre-filled pens, lyoph
 
 ## Pages
 - [Home](/): Full product range, brand overview, and health categories
-- [About](/about): Company background, APEX partnership, and quality standards
+- [About](/about): Company background, APEX partnership, team bio, and quality standards
 - [Science](/science): HPLC verification, cold-chain handling, and lab standards
 - [Shipping & Returns](/shipping): UAE delivery rates (same-day Dubai, 24–48hr UAE-wide) and returns policy
 - [FAQ](/faq): Common questions about peptides, purity, shipping, storage, and ordering
+
+## Blog
+- [Blog Index](/blog): Research guides, format comparisons, and educational articles
+- [BPC-157: What Researchers Need to Know](/blog/what-is-bpc-157): Structure, research applications, published findings, and sourcing guidance
+- [Peptide Pens vs Vials vs Nasal Sprays](/blog/peptide-pens-vs-vials-vs-nasal-sprays): Format comparison covering precision, convenience, storage, and research applications
+- [How to Store Research Peptides Properly](/blog/how-to-store-research-peptides): Temperature requirements, reconstitution handling, shelf life, and common mistakes
 
 ## Collections
 - [Weight Loss](/collection/weight-loss): Retatrutide, Tirzepatide, AOD-9604, HGH Fragment and more

@@ -18,6 +18,7 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     links: [
       { label: "About", to: "/about" },
       { label: "Science", to: "/science" },
+      { label: "Blog", to: "/blog" },
     ],
   },
   {

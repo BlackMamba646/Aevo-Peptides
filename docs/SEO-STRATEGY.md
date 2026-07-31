@@ -72,7 +72,7 @@ The site is indexed in Google — pages appear in `site:aevowellness.shop` resul
 
 | Keyword Cluster | Competitor Coverage | Aevo Coverage | Opportunity |
 |----------------|--------------------|----|-------------|
-| "buy peptides Dubai" | AE Peptides, Emirates | None (not indexed) | HIGH — create targeted landing content |
+| "buy peptides Dubai" | AE Peptides, Emirates | Home page, product pages | HIGH — create targeted landing content |
 | "BPC-157 UAE" | All competitors | Product page only | HIGH — needs guide + product page |
 | "peptide pens UAE" | Low competition | Product page | HIGH — Aevo can dominate |
 | "research peptide nasal spray" | Very low competition | Product page | HIGH — blue ocean keyword |
@@ -214,8 +214,8 @@ aevowellness.shop/
 - [x] FAQPage on /faq
 - [x] SiteNavigationElement
 - [ ] Add AggregateRating to products (when reviews are available)
-- [ ] Add OfferShippingDetails to Product schema
-- [ ] Add Article/BlogPosting schema to blog posts (when created)
+- [x] Add OfferShippingDetails to Product schema
+- [x] Add Article/BlogPosting schema to blog posts
 
 ### Performance Targets
 
@@ -296,14 +296,14 @@ aevowellness.shop/
 
 | Metric | Baseline (Now) | 3 Months | 6 Months | 12 Months |
 |--------|---------------|----------|----------|-----------|
-| Indexed Pages | 0 | 30+ | 50+ | 80+ |
-| Organic Traffic (monthly) | 0 | 200–500 | 1,000–2,500 | 5,000–10,000 |
-| Keyword Rankings (top 100) | 0 | 30+ | 80+ | 200+ |
-| Keyword Rankings (top 10) | 0 | 3–5 | 15–25 | 50+ |
-| Domain Authority (Moz) | 0 | 5–10 | 15–20 | 25–35 |
-| Organic Revenue (% of total) | 0% | 5–10% | 15–25% | 30–50% |
-| Blog Posts Published | 0 | 10 | 18 | 30+ |
-| Backlinks | 0 | 15–25 | 40–60 | 100+ |
+| Indexed Pages | 15+ | 30+ | 50+ | 80+ |
+| Organic Traffic (monthly) | Low | 200–500 | 1,000–2,500 | 5,000–10,000 |
+| Keyword Rankings (top 100) | TBD (check GSC) | 30+ | 80+ | 200+ |
+| Keyword Rankings (top 10) | TBD (check GSC) | 3–5 | 15–25 | 50+ |
+| Domain Authority (Moz) | 0–5 | 5–10 | 15–20 | 25–35 |
+| Organic Revenue (% of total) | <5% | 5–10% | 15–25% | 30–50% |
+| Blog Posts Published | 3 | 10 | 18 | 30+ |
+| Backlinks | <5 | 15–25 | 40–60 | 100+ |
 | Core Web Vitals (passing) | Unknown | All green | All green | All green |
 
 ---
@@ -329,7 +329,7 @@ aevowellness.shop/
 - TikTok restricts peptide advertising
 - **Organic search is the only scalable, unrestricted acquisition channel**
 
-Every competitor in this space relies primarily on SEO. Aevo's current zero-indexation state means competitors are capturing 100% of the organic demand that Aevo should be competing for.
+Every competitor in this space relies primarily on SEO. Aevo is indexed but still building domain authority, meaning competitors with established backlink profiles are capturing the majority of organic demand.
 
 ---
 

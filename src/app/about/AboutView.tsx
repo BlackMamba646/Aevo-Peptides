@@ -130,6 +130,30 @@ export function AboutView() {
 
               <Reveal>
                 <section className="mt-12">
+                  <h2 className="mb-4 text-xl font-semibold text-ink">Our Team</h2>
+                  <GlassCard className="p-6">
+                    <h3 className="font-semibold text-ink">Aevo Research Team</h3>
+                    <p className="mt-1 text-xs font-medium text-ink-soft">
+                      Peptide Quality & Distribution
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                      Our team brings expertise in pharmaceutical distribution, peptide
+                      quality assurance, and cold-chain logistics across the UAE market.
+                      Working directly with APEX manufacturing, we verify every batch through
+                      independent HPLC and mass spectrometry testing before it reaches
+                      researchers. Our published guides on peptide storage, format selection,
+                      and purity verification are available on the{" "}
+                      <Link href="/blog" className="underline hover:text-ink">
+                        Aevo blog
+                      </Link>
+                      .
+                    </p>
+                  </GlassCard>
+                </section>
+              </Reveal>
+
+              <Reveal>
+                <section className="mt-12">
                   <h2 className="mb-4 text-xl font-semibold text-ink">Research Use Only</h2>
                   <p className="text-sm leading-relaxed text-ink-soft">
                     All products sold by Aevo Wellness are strictly for laboratory and

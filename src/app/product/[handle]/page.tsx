@@ -66,6 +66,44 @@ export default async function ProductPage({ params }: { params: Params }) {
                     ? "https://schema.org/InStock"
                     : "https://schema.org/OutOfStock",
                   url,
+                  seller: { "@type": "Organization", name: "Aevo Wellness" },
+                  shippingDetails: [
+                    {
+                      "@type": "OfferShippingDetails",
+                      shippingRate: {
+                        "@type": "MonetaryAmount",
+                        value: "130",
+                        currency: "AED",
+                      },
+                      shippingDestination: {
+                        "@type": "DefinedRegion",
+                        addressCountry: "AE",
+                        addressRegion: "Dubai",
+                      },
+                      deliveryTime: {
+                        "@type": "ShippingDeliveryTime",
+                        handlingTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "d" },
+                        transitTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "d" },
+                      },
+                    },
+                    {
+                      "@type": "OfferShippingDetails",
+                      shippingRate: {
+                        "@type": "MonetaryAmount",
+                        value: "70",
+                        currency: "AED",
+                      },
+                      shippingDestination: {
+                        "@type": "DefinedRegion",
+                        addressCountry: "AE",
+                      },
+                      deliveryTime: {
+                        "@type": "ShippingDeliveryTime",
+                        handlingTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 1, unitCode: "d" },
+                        transitTime: { "@type": "QuantitativeValue", minValue: 1, maxValue: 2, unitCode: "d" },
+                      },
+                    },
+                  ],
                 }
               : undefined,
         },

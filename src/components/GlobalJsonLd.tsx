@@ -49,6 +49,7 @@ export function GlobalJsonLd() {
         name: [
           "Shop",
           "Science",
+          "Blog",
           "About",
           "Shipping",
           "FAQ",
@@ -56,6 +57,7 @@ export function GlobalJsonLd() {
         url: [
           "https://aevowellness.shop/",
           "https://aevowellness.shop/science",
+          "https://aevowellness.shop/blog",
           "https://aevowellness.shop/about",
           "https://aevowellness.shop/shipping",
           "https://aevowellness.shop/faq",
