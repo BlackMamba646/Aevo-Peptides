@@ -1,20 +1,42 @@
-# Aevo
+# Aevo Wellness
 
-> Aevo is a UAE-based peptide research brand offering verified peptide formats — pens, vials and nasal sprays — with same-day Dubai delivery.
+> Aevo is a UAE-based research peptide brand and the official distributor of APEX. Every batch is independently verified to ≥98% purity via HPLC and mass spectrometry, cold-chain shipped across the UAE with same-day Dubai delivery.
 
-Aevo curates a considered range of research peptides grouped by goal: weight loss, recovery, energy & longevity, brain performance and hormone optimization. Products are the official Apex Pharma line, third-party verified.
+## What We Offer
+Aevo curates research-grade peptides in three formats — pre-filled pens, lyophilised glass vials, and nasal sprays — grouped by research goal. All products are the official APEX line, third-party verified with Certificates of Analysis.
 
 ## Pages
-- [Home](/): Brand overview and full range
-- [Science](/science): Verification, cold-chain handling and lab standards
-- [Shipping & Returns](/shipping): UAE delivery rates and returns policy
+- [Home](/): Full product range, brand overview, and health categories
+- [About](/about): Company background, APEX partnership, and quality standards
+- [Science](/science): HPLC verification, cold-chain handling, and lab standards
+- [Shipping & Returns](/shipping): UAE delivery rates (same-day Dubai, 24–48hr UAE-wide) and returns policy
+- [FAQ](/faq): Common questions about peptides, purity, shipping, storage, and ordering
 
 ## Collections
-- [Weight Loss](/collection/weight-loss): Retatrutide, Tirzepatide, AOD-9604 and more
-- [Recovery](/collection/recovery): BPC-157, TB-500, KPV, DSIP
-- [Energy & Longevity](/collection/energy-longevity): NAD+, MOTS-C, Epitalon, GHK-Cu
-- [Brain Performance](/collection/brain-performance): Semax, Selank, PT-141, Kisspeptin
-- [Hormone Optimization](/collection/hormone-optimization): Ipamorelin, Sermorelin, CJC-1295, Somatropin
+- [Weight Loss](/collection/weight-loss): Retatrutide, Tirzepatide, AOD-9604, HGH Fragment and more
+- [Recovery](/collection/recovery): BPC-157, TB-500, KPV, DSIP and recovery blends
+- [Energy & Longevity](/collection/energy-longevity): NAD+, MOTS-C, Epitalon, SS-31, GHK-Cu and Glutathione
+- [Brain Performance](/collection/brain-performance): Semax, Selank, PT-141, Kisspeptin, AICAR and SLU-PP-332
+- [Hormone Optimization](/collection/hormone-optimization): Ipamorelin, Sermorelin, Tesamorelin, CJC-1295, GHRP-2/6 and Somatropin
 
-## Optional
+## Product Formats
+- Peptide Pens: Pre-measured click-dial format, 5mg
+- Peptide Vials: Lyophilised glass vial, 10mg
+- Nasal Sprays: Ready-to-use intranasal format, 15mg
+
+## Quality Standards
+- ≥98% purity verified by independent HPLC and mass spectrometry
+- Certificate of Analysis (CoA) matched to every lot
+- GMP-aligned manufacturing by APEX
+- Cold-chain storage and shipping (2–8°C)
+- Full traceability from synthesis to dispatch
+
+## Legal
+- [Privacy Policy](/privacy)
+- [Terms of Service](/terms)
+- [Refund Policy](/refund-policy)
+- All products are for laboratory research use only. Not for human consumption.
+
+## Utility
 - [Search](/search): Product keyword search
+- [Sitemap](/sitemap.xml): XML sitemap
