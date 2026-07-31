@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { ShippingView } from "./ShippingView";
 
 export const metadata: Metadata = {
-  title: "UAE Peptide Shipping — Same-Day Dubai Delivery | Aevo",
+  title: "UAE Peptide Shipping — Same-Day Dubai Delivery",
   description:
     "Same-day cold-chain peptide delivery in Dubai (130 AED) and 24–48 hour tracked shipping across the UAE (70 AED). Temperature-controlled from our facility to your door.",
   alternates: { canonical: "https://aevowellness.shop/shipping" },
   openGraph: {
-    title: "UAE Peptide Shipping — Same-Day Dubai Delivery | Aevo",
+    title: "UAE Peptide Shipping — Same-Day Dubai Delivery",
     description:
       "Same-day delivery in Dubai and 24–48 hour cold-chain shipping across the UAE, plus our returns policy.",
     type: "website",

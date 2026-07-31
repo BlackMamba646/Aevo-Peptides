@@ -65,12 +65,12 @@ const FAQ_ITEMS = [
 ];
 
 export const metadata: Metadata = {
-  title: "FAQ — Research Peptides Questions Answered | Aevo",
+  title: "FAQ — Research Peptides Questions Answered",
   description:
     "Frequently asked questions about Aevo research peptides: purity testing, cold-chain shipping, storage, formats, ordering in the UAE, and Certificates of Analysis.",
   alternates: { canonical: "https://aevowellness.shop/faq" },
   openGraph: {
-    title: "FAQ — Research Peptides Questions Answered | Aevo",
+    title: "FAQ — Research Peptides Questions Answered",
     description:
       "Answers to common questions about peptide purity, shipping, storage, and ordering from Aevo in the UAE.",
     type: "website",

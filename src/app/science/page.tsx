@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { ScienceView } from "./ScienceView";
 
 export const metadata: Metadata = {
-  title: "Peptide Purity & Testing — HPLC Verified ≥98% | Aevo",
+  title: "Peptide Purity & Testing — HPLC Verified ≥98%",
   description:
     "How Aevo verifies every peptide batch: independent HPLC and mass spectrometry assays to ≥98% purity, cold-chain handling from synthesis to delivery, and a Certificate of Analysis with every lot.",
   alternates: { canonical: "https://aevowellness.shop/science" },
   openGraph: {
-    title: "Peptide Purity & Testing — HPLC Verified ≥98% | Aevo",
+    title: "Peptide Purity & Testing — HPLC Verified ≥98%",
     description:
       "Independent testing, cold-chain logistics and lab-grade manufacturing — the verified science behind every Aevo peptide format.",
     type: "website",

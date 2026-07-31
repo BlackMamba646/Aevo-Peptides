@@ -15,7 +15,7 @@ import { Toaster } from "@/components/ui/sonner";
 const HOME_OG_IMAGE = "https://aevowellness.shop/assets/science-hero.png";
 
 export const metadata: Metadata = {
-  title: "Buy Research Peptides in the UAE — Verified 98%+ Purity | Aevo",
+  title: "Buy Research Peptides in the UAE — Verified 98%+ Purity",
   description:
     "Shop Aevo's range of third-party tested research peptides — pens, vials and nasal sprays — cold-chain shipped across the UAE with same-day Dubai delivery. BPC-157, Semaglutide, Retatrutide & more.",
   alternates: { canonical: "https://aevowellness.shop/" },
