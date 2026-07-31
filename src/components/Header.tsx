@@ -21,6 +21,14 @@ export function Header() {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const [searchOpen, setSearchOpen] = React.useState(false);
   const [term, setTerm] = React.useState("");
+  const [scrolled, setScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 50);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const goTo = (item: NavItem) => {
     setMenuOpen(false);
@@ -62,7 +70,12 @@ export function Header() {
               aria-label="aevo home"
               className="flex items-center"
             >
-              <img src={logo} alt="aevo" className="h-6 w-auto" />
+              <img
+                src={logo}
+                alt="aevo"
+                className="h-6 w-auto transition-all duration-300"
+                style={{ filter: scrolled ? "brightness(0)" : "none" }}
+              />
             </button>
 
             {/* Desktop nav */}
@@ -179,7 +192,7 @@ export function Header() {
               transition={{ type: "tween", duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
             >
               <div className="mb-2 flex items-center justify-between">
-                <img src={logo} alt="aevo" className="h-6 w-auto" />
+                <img src={logo} alt="aevo" className="h-6 w-auto brightness-0" />
                 <GlassButton
                   variant="glass"
                   size="iconSm"
